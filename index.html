@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mrudul More - Developer Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    
+    <header id="home">
+        <nav>
+            <div class="nav-container">
+                <div class="left">Mrudul's Portfolio</div>
+                <button class="hamburger" onclick="toggleMenu()">☰</button>
+                <div class="right">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                    <div class="headTextContainer">
+                        Hello, I am <span class="purple">Mrudul</span>
+                        <div>and I am a passionate</div>
+                        <div><span id="element" class="purple"></span> <!-- IT Engineer --> </div>
+                    </div>
+                    <div style="margin: 2% 0;">
+                        From curiosity to code — every project I take on is a new story.
+                    </div>
+                    <div class="btns">
+                        <a href="#projects"><button id="projectsBtn">Projects</button></a>
+                        <a href="https://www.linkedin.com/in/mrudul-more-820816316" target="_blank"><button id="linkedinBtn">Linked In</button></a>
+                    </div>
+                </div>
+                <div class="rightSection">
+                    <img src="imgs/frontImg.png" alt="front image">
+                </div>
+            </section>
+            
+            <hr>
+
+            <section id="about" class="about-section" data-aos="fade-right">
+                <h2 class="section-heading">About Me</h2>
+                <div class="about-content" id="about-content">
+                    <p>
+                        I have great interest in software development, I have completed my diploma in Computer Engineering with a strong command on some programming languages like <i>HTML, CSS, JS, Java and Python</i>. Now I am pursuing undergraduate degree in similar field.
+                        <br>
+                        Beyond code, I enjoy tech discussions, solving logical problems, and working on projects that challenge my thinking. And other than academics I love listening and playing music and reading books.
+                    </p>
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="skills" class="skills-section" data-aos="fade-up">
+                <h2 class="section-heading">My Skills</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skillset">
+                        <div class="skill">
+                            <img src="imgs/html.png" alt="HTML">
+                            <span>HTML</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <img src="imgs/css.png" alt="CSS">
+                            <span>CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <img src="imgs/javascript.png" alt="JavaScript">
+                            <span>JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                        <img src="imgs/python.png" alt="Python">
+                        <span>Python</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="skillset">
+                        <div class="skill">
+                        <img src="imgs/bootstrap.png" alt="Bootstrap">
+                        <span>Bootstrap</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                        </div>
+
+                        <div class="skill">
+                        <img src="imgs/github.png" alt="GitHub">
+                        <span>GitHub</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                        </div>
+
+                        <div class="skill">
+                        <img src="imgs/figma.png" alt="Figma">
+                        <span>Figma</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                        </div>
+
+                        <div class="skill">
+                        <img src="imgs/vs-code.png" alt="VS-Code">
+                        <span>VS-Code</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%"></div>
+                        </div>
+                        </div>
+                        
+                    </div>    
+                </div>
+            </section>
+            
+            <hr>
+
+            <section id="education" class="education-section" data-aos="fade-left">
+                <h2 class="section-heading">Education</h2>
+                <div class="education-timeline">
+
+                    <div class="edu-item">
+                        <div class="edu-title">Secondary School Certificate (SSC)</div>
+                        <div class="edu-sub">R. B. Shirke Highschool, Ratnagiri</div>
+                        <div class="edu-year">Completed: 2021</div>
+                        <div class="edu-grade">Passed with Distinction</div>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="edu-title">Diploma in Computer Engineering</div>
+                        <div class="edu-sub">Government Polytechnic, Ratnagiri</div>
+                        <div class="edu-year">Completed: 2021 – 2024</div>
+                        <div class="edu-grade">Passed with Distinction</div>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="edu-title">Full Stack Web Development Internship</div>
+                        <div class="edu-sub">Emirates Solution</div>
+                        <div class="edu-year">Completed: 2023</div>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="edu-title">B.E. in Information Technology</div>
+                        <div class="edu-sub">Finolex Academy of Magement and Technology, Ratnagiri</div>
+                        <div class="edu-year">Ongoing: 2024 – 2027</div>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr>
+
+            <section id="projects" class="projects" data-aos="fade-up">
+                <h1>My Projects</h1>
+                <hr>
+                <div class="projectrow">
+                    <a href="">
+                        <div class="project project1">
+                            <div class="description">
+                                <div class="ptitle">
+                                    Netflix Clone
+                                </div>
+                                <div class="image">
+                                    <img src="imgs/project1.png" alt="">
+                                </div>
+                                <!-- <p>This project is a static front-end clone of Netflix, created entirely with HTML and CSS. It replicates the visual design and layout of the Netflix homepage, including the navigation bar, banner section, content rows, and footer. The focus of this project is on building a responsive and visually appealing interface without any JavaScript or backend functionality. It serves as a practice exercise in HTML structure, CSS styling, and responsive web design techniques.</p> -->
+                                <p>Static front-end replica of Netflix homepage using only HTML and CSS, focusing on layout, design, and responsiveness without functionality.</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="">
+                        <div class="project project2">
+                        <div class="description">
+                                <div class="ptitle">
+                                    MyNote Web-App
+                                </div>
+                                <div class="image">
+                                    <img src="imgs/project2.png" alt="">
+                                </div>
+                                <!-- <p>MyNotes is a web-based CRUD (Create, Read, Update, Delete) application designed as a digital notepad. Built using PHP and HTML for the backend and structure, it integrates Bootstrap for responsive styling and jTable for interactive data presentation. Users can create, view, edit, and delete notes in a clean and organized interface. This project focuses on implementing core CRUD functionality while maintaining a user-friendly and responsive design.</p> -->
+                                <p>CRUD-based notepad app with PHP backend, Bootstrap styling, and jTable for interactive note management.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projectrow">
+                    <a href="">
+                        <div class="project project3">
+                            <div class="description">
+                                <div class="ptitle">
+                                    <i>Guess The Number</i> Game
+                                </div>
+                                <div class="image">
+                                    <img src="imgs/project3.png" alt="">
+                                </div>
+                                <!-- <p>Guess the Number is an interactive browser-based game where the system generates a random number between 1 and 100, and the player’s goal is to guess it in the fewest attempts possible. Built using HTML, CSS, and JavaScript, the game provides real-time feedback on each guess, indicating whether the number is too high, too low, or correct. This project demonstrates the use of DOM manipulation, event handling, and basic game logic in JavaScript.</p> -->
+                                <p>Random number guessing game (1–100) with feedback and attempt count, built using HTML, CSS, and JS.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+
+            <div class="colorTheme">
+                <button>Change Theme</button>
+            </div>
+        </main>
+    </header>
+
+    <hr>
+
+    
+    <footer data-aos="fade-right" id="contact">
+        <section id="links" class="links-section">
+            <h2 class="section-heading">Let's Connect</h2>
+            <div class="links-container">
+                <a href="https://github.com/mrudul108" target="_blank" class="link-btn">GitHub<img src="imgs/github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/mrudul-more-820816316" target="_blank" class="link-btn">LinkedIn <img src="imgs/linkedin.svg" alt=""></a>
+                <a href="resume.pdf" download class="link-btn">Download Resume <img src="imgs/resume.svg" alt=""></a>
+            </div>
+            <p><i>If you’d like to collaborate, work together, or hire me, feel free to connect via LinkedIn. or simply send an email using &quot;contact me&quot;</i></p>
+        </section>
+
+        <section class="contact-section">
+            <h2 class="section-heading">Contact Me</h2>
+            <form action="https://formspree.io/f/xanbayoz" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </footer>
+    
+
+    <!-- Typed.js -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            // strings: ['Diploma Holder', "Web Developer", "IT student"],
+            strings: ["IT student"],
+            typeSpeed: 50,
+            backSpeed: 25,
+            // loop: true
+        });
+    </script>
+
+    <!-- AOS.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 1000});
+    </script>
+</body>
+</html>
